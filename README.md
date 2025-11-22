@@ -65,6 +65,39 @@ This repository contains various games that highlight different aspects of Pytho
    ```bash
    git clone https://github.com/kamyarmg/oyna.git
    ```
+   ## **Run & Contribute**
+   - **Python version**: This project requires Python >= 3.10.
+   - **Create venv**: create and activate a virtual environment:
+
+      ```bash
+      python3 -m venv .venv
+      source .venv/bin/activate
+      ```
+   - **Install package + dev dependencies**: installs the package editable and developer extras (includes `pynput` and `pre-commit`):
+
+      ```bash
+      python -m pip install --upgrade pip
+      pip install -e '.[dev]'
+      ```
+   - **Install pre-commit hooks** (after installing dev deps):
+
+      ```bash
+      pre-commit install
+      ```
+   - **Run a single game (examples)**: many games expose a runnable `grid_base.py` with a `__main__` guard. Run a specific game as a module. Examples:
+
+      ```bash
+      # Run Sudoku
+      python -m oyna.sudoku.grid_base
+
+      # Run Snake
+      python -m oyna.snake.grid_base
+
+      # Run Flappy Bird
+      python -m oyna.flappy_bird.grid_base
+      ```
+   - **About `pynput`**: input handling uses `pynput` (declared in `pyproject.toml`). On Linux ensure an X server or desktop session is available — `pynput` needs access to the system input devices.
+
    **OR** Install it using pip
    ```bash
    pip install oyna
@@ -74,4 +107,5 @@ This repository contains various games that highlight different aspects of Pytho
 4. Enjoy and start learning!
 
 ---
+
 To add or refactor a game or any other feature, please read the [CONTRIBUTING.md](https://github.com/kamyarmg/oyna/tree/main/CONTRIBUTING.md) file first. After that, you can create a new game or make changes and submit a pull request.
