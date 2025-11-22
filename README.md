@@ -49,7 +49,7 @@ This repository contains various games that highlight different aspects of Pytho
    <tr>
       <td><a href="https://github.com/kamyarmg/oyna/tree/main/src/oyna/reverse_slide_puzzle/"> Reverse Slide Puzzle </a></br><img src="https://raw.githubusercontent.com/kamyarmg/oyna/refs/heads/main/docs/images/reverse_slide_puzzle.png" alt="Reverse Slide Puzzle" width=200/>
       <td><a href="https://github.com/kamyarmg/oyna/tree/main/src/oyna/checkers/"> Checkers </a></br><img src="https://raw.githubusercontent.com/kamyarmg/oyna/refs/heads/main/docs/images/checkers.png" alt="Checkers" width=200 />
-      <td><a href="https://github.com/kamyarmg/oyna/tree/main/src/oyna/explosion/">UFO Explosion </a></br><img src="https://raw.githubusercontent.com/kamyarmg/oyna/refs/heads/main/docs/images/explosion.png" alt="UFO Explosion" width=200/></td>
+      <td><a href="https://github.com/kamyarmg/oyna/tree/main/src/oyna/ufo_explosion/">UFO Explosion </a></br><img src="https://raw.githubusercontent.com/kamyarmg/oyna/refs/heads/main/docs/images/ufo_explosion.png" alt="UFO Explosion" width=200/></td>
 
    </tr>
 
